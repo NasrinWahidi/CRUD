@@ -12,7 +12,7 @@
 			<h3>Add Form
 			<span class="pull-right"><a href="<?php echo base_url(); ?>" class="btn btn-primary"><span class="glyphicon glyphicon-arrow-left"></span> Back</a></span>			</h3>
 			<hr>
-			<form method="POST" action="<?php echo base_url(); ?>users/insert">
+			<form method="POST" action="<?php echo base_url(); ?>index.php/users/insert">
 				<div class="form-group">
 					<label>Username:</label>
 					<input type="text" class="form-control" name="username">
