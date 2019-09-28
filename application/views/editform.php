@@ -15,7 +15,7 @@
 			</h3>
 			<hr>
 			<?php extract($user); ?>
-			<form method="POST" action="<?php echo base_url(); ?>users/update/<?php echo $id; ?>">
+			<form method="POST" action="<?php echo base_url(); ?>index.php/users/update/<?php echo $id; ?>">
 				<div class="form-group">
 					<label>Username:</label>
 					<input type="text" class="form-control" value="<?php echo $username; ?>" name="username">
