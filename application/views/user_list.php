@@ -10,7 +10,7 @@
 	<h1 class="page-header text-center">CodeIgniter Simple CRUD Tutorial</h1>
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<a href="<?php echo base_url(); ?>users/addnew" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Add New</a><br><br>
+			<a href="<?php echo base_url(); ?>index.php/users/addnew" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Add New</a><br><br>
 			<table class="table table-bordered table-striped">
 				<thead>
 					<tr>
@@ -30,7 +30,7 @@
 							<td><?php echo $user->username; ?></td>
 							<td><?php echo $user->password; ?></td>
 							<td><?php echo $user->fname; ?></td>
-							<td><a href="<?php echo base_url(); ?>users/edit<?php echo $user->id; ?>" class="btn btn-success"><span class="glyphicon glyphicon-edit"></span> Edit</a> || <a href="<?php echo base_url(); ?>users/delete/<?php echo $user->id; ?>" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Delete</a></td>
+							<td><a href="<?php echo base_url(); ?>index.php/users/edit<?php echo $user->id; ?>" class="btn btn-success"><span class="glyphicon glyphicon-edit"></span> Edit</a> || <a href="<?php echo base_url(); ?>index.php/users/delete/<?php echo $user->id; ?>" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Delete</a></td>
 						</tr>
 						<?php
 					}
